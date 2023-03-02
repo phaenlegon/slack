@@ -1,0 +1,9 @@
+@mixin flexElement($justify:space-evenly, $direction: row, $align:center, $gap: 20px  ){
+    // @include flexElement(space-around, column, center, 40px, wrap)
+    display: flex;
+    justify-content: $justify;
+    flex-wrap: wrap;
+    align-items: $align;
+    flex-direction: $direction;
+    gap: $gap;
+}
