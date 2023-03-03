@@ -47,53 +47,26 @@ main{
             margin: 10px;
         }
     }
-    .phoneblue_img{
+    .phone_img{
     justify-content: space-around;
     max-width: 100%;
     padding: 15px 0px;
     }
-    .phoneblue{
+    .phonecard{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         padding: 0px 4vw 2px 4vw;
         font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-        .phoneblue_text{
+        .phone_text{
             @include phonesh1()
         }
-        .phoneblue_p{
+        .phone_p{
             @include phonep()
         }
-        .phoneblue_a{
+        .phone_a{
             @include phonea()
-
-        }
-        
+        }  
     }
-    .phoneGreen_img{
-        justify-content: space-around;
-        max-width: 100%;
-        padding-top: 80px;
-    }
-    .phonegreen{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        padding: 0px 4vw 2px 4vw;
-        font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-        .phonegreen_text{
-            @include phonesh1()
-        }
-        .phonegreen_p{
-            @include phonep()
-        }
-        .phonegreen_a{
-            @include phonea()
-
-        }
-        
-    }
-        
 }

@@ -141,12 +141,12 @@ main .logo .Etsy {
   height: 50px;
   margin: 10px;
 }
-main .phoneblue_img {
+main .phone_img {
   justify-content: space-around;
   max-width: 100%;
   padding: 15px 0px;
 }
-main .phoneblue {
+main .phonecard {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -154,14 +154,14 @@ main .phoneblue {
   padding: 0px 4vw 2px 4vw;
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
-main .phoneblue .phoneblue_text {
+main .phonecard .phone_text {
   font-weight: 650;
   line-height: 1.1875;
   letter-spacing: -0.3px;
   margin-bottom: 1rem;
   font-size: 30px;
 }
-main .phoneblue .phoneblue_p {
+main .phonecard .phone_p {
   align-items: left;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
@@ -170,49 +170,7 @@ main .phoneblue .phoneblue_p {
   font-size: 18px;
   margin-bottom: 16px;
 }
-main .phoneblue .phoneblue_a {
-  align-items: left;
-  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
-  font-weight: 400;
-  line-height: 1.4444;
-  letter-spacing: normal;
-  font-size: 18px;
-  margin-bottom: 16px;
-  justify-content: flex-start;
-  text-decoration: none;
-  color: #1264a3;
-  border-bottom: none;
-}
-main .phoneGreen_img {
-  justify-content: space-around;
-  max-width: 100%;
-  padding-top: 80px;
-}
-main .phonegreen {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 4vw 2px 4vw;
-  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
-}
-main .phonegreen .phonegreen_text {
-  font-weight: 650;
-  line-height: 1.1875;
-  letter-spacing: -0.3px;
-  margin-bottom: 1rem;
-  font-size: 30px;
-}
-main .phonegreen .phonegreen_p {
-  align-items: left;
-  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
-  font-weight: 400;
-  line-height: 1.4444;
-  letter-spacing: normal;
-  font-size: 18px;
-  margin-bottom: 16px;
-}
-main .phonegreen .phonegreen_a {
+main .phonecard .phone_a {
   align-items: left;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
