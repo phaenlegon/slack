@@ -11,7 +11,6 @@ header {
   flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
-  gap: 20px;
 }
 header nav {
   width: 100%;
@@ -21,7 +20,7 @@ header nav {
 header nav .Icon {
   width: 110px;
   height: 60px;
-  padding: 10px 10px;
+  padding: 10px 30px;
   padding-bottom: 0px;
 }
 header nav .burger {
@@ -35,17 +34,194 @@ header .Title1 {
   text-align: center;
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 700;
-  line-height: 1.12;
+  line-height: 1.1;
+  letter-spacing: -1.5px;
   letter-spacing: -0.8px;
   -webkit-margin-before: 0.83em;
           margin-block-start: 0.83em;
   -webkit-margin-after: 0.83em;
           margin-block-end: 0.83em;
-  margin: 0 25px 15px 25px;
+  margin: 20px 16px 15px 16px;
+  font-size: 41px;
+}
+header p {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.444;
+  letter-spacing: -0.2px;
+  margin: 0 16px 55px 16px;
+}
+header .Register {
+  background-color: white;
+  font-weight: 700;
+  line-height: 1.444;
+  letter-spacing: 0.2px;
+  color: rgb(84, 21, 84);
+  width: 92%;
+  height: 55px;
+  margin-bottom: 10px;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+header .ButtonGoogle {
+  font-weight: 700;
+  line-height: 1.444;
+  letter-spacing: 0.2px;
+  background-color: #4285f4;
+  width: 92%;
+  height: 55px;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+header .ButtonGoogle .Googlep {
+  padding: 20px 0px 0px 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  letter-spacing: 0.8px;
+}
+header .ButtonGoogle .Google_img {
+  width: 53px;
+  position: absolute;
+  left: 28px;
+}
+header .Screen {
+  margin: 30px 0 0 0;
+  display: block;
+  justify-items: right;
+  width: 100%;
+}
+
+main {
+  background-color: rgb(244, 237, 228);
+  max-width: 100%;
+}
+main .logo {
+  padding-top: 48px;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px, 15px;
+}
+main .logo .empresas {
+  text-align: center;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+main .logo .Airbnb {
+  margin: 10px;
+  height: 70px;
+}
+main .logo .NASA {
+  height: 55px;
+  margin: 10px;
+}
+main .logo .Uber {
+  height: 30px;
+  margin: 10px;
+}
+main .logo .Target {
+  height: 50px;
+  margin: 10px;
+}
+main .logo .NYT {
+  height: 50px;
+  margin: 10px;
+}
+main .logo .Etsy {
+  height: 50px;
+  margin: 10px;
+}
+main .phoneblue_img {
+  justify-content: space-around;
+  max-width: 100%;
+  padding: 15px 0px;
+}
+main .phoneblue {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 4vw 2px 4vw;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+main .phoneblue .phoneblue_text {
+  font-weight: 650;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  margin-bottom: 1rem;
   font-size: 30px;
 }
-header .Android {
-  background-color: white;
-  width: 87%;
-  height: 7vh;
+main .phoneblue .phoneblue_p {
+  align-items: left;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+main .phoneblue .phoneblue_a {
+  align-items: left;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin-bottom: 16px;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #1264a3;
+  border-bottom: none;
+}
+main .phoneGreen_img {
+  justify-content: space-around;
+  max-width: 100%;
+  padding-top: 80px;
+}
+main .phoneGreen {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 48px 4vw 2px 4vw;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+main .phoneGreen .phoneGreen_text {
+  font-weight: 650;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+main .phoneGreen .phoneGreen_p {
+  align-items: left;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+main .phoneGreen .phoneGreen_a {
+  align-items: left;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin-bottom: 16px;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #1264a3;
+  border-bottom: none;
 }/*# sourceMappingURL=styles.css.map */

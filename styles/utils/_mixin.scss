@@ -1,9 +1,31 @@
-@mixin flexElement($justify:space-evenly, $direction: row, $align:center, $gap: 20px  ){
+@mixin flexElement($justify:space-evenly, $direction: row, $align:center){
     // @include flexElement(space-around, column, center, 40px, wrap)
     display: flex;
     justify-content: $justify;
     flex-wrap: wrap;
     align-items: $align;
     flex-direction: $direction;
-    gap: $gap;
+}
+@mixin phonesh1(){
+    font-weight: 650;
+    line-height: 1.1875;
+    letter-spacing: -.3px;
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+@mixin phonep($align:left){
+    align-items: $align;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.4444;
+    letter-spacing: normal;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+@mixin phonea($align:left){
+    @include phonep();
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #1264a3;
+    border-bottom: none;
 }
