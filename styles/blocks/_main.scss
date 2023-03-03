@@ -76,22 +76,24 @@ main{
         max-width: 100%;
         padding-top: 80px;
     }
-    .phoneGreen{
+    .phonegreen{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
-        padding: 48px 4vw 2px 4vw;
+        padding: 0px 4vw 2px 4vw;
         font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-        .phoneGreen_text{
+        .phonegreen_text{
             @include phonesh1()
         }
-        .phoneGreen_p{
+        .phonegreen_p{
             @include phonep()
         }
-        .phoneGreen_a{
+        .phonegreen_a{
             @include phonea()
 
         }
-    }     
+        
+    }
+        
 }

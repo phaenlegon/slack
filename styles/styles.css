@@ -188,22 +188,22 @@ main .phoneGreen_img {
   max-width: 100%;
   padding-top: 80px;
 }
-main .phoneGreen {
+main .phonegreen {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  padding: 48px 4vw 2px 4vw;
+  padding: 0px 4vw 2px 4vw;
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
-main .phoneGreen .phoneGreen_text {
+main .phonegreen .phonegreen_text {
   font-weight: 650;
   line-height: 1.1875;
   letter-spacing: -0.3px;
   margin-bottom: 1rem;
   font-size: 30px;
 }
-main .phoneGreen .phoneGreen_p {
+main .phonegreen .phonegreen_p {
   align-items: left;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
@@ -212,7 +212,7 @@ main .phoneGreen .phoneGreen_p {
   font-size: 18px;
   margin-bottom: 16px;
 }
-main .phoneGreen .phoneGreen_a {
+main .phonegreen .phonegreen_a {
   align-items: left;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
