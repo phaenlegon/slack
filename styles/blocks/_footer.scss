@@ -1,0 +1,56 @@
+footer{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    max-width: 414px;
+    background-color: white;
+    margin-left: 16px;
+    margin-right: 16px;
+    .FooterList{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid rgb(192, 192, 192);
+        .Footeritems{
+            padding: 17px 0;
+            font-weight: 700;
+            line-height: 1.2857;
+            letter-spacing: normal;
+            font-size: 13px;
+        }
+    }
+    .Download{
+        font-weight: 700;
+        line-height: 1.2857;
+        letter-spacing: normal;
+        font-size: 13px;
+        color: #1264a3;
+        text-decoration: none;
+        padding-top: 70px;
+        .cloud{
+            height: 15px;
+            width: 15px;
+        }
+    }
+    .Social{    
+        padding-top: 20px;
+        padding-bottom: 16px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .Socialnet{
+            height: 25px;
+            width: 25px;
+        }
+    }
+    .FINAL{
+            background-color: white;
+            line-height: 1.4286;
+            letter-spacing: normal;
+            font-weight: 300;
+            padding: 15px 0px 45px;
+            font-size: 12.5px;
+    }
+
+}
