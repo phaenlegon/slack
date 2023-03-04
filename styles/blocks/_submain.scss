@@ -1,4 +1,4 @@
-main{
+.main1{
     background-color: rgb(244, 237, 228);
     max-width: 100%;
     .logo{
@@ -68,5 +68,12 @@ main{
         .phone_a{
             @include phonea()
         }  
+    }
+    .padding{
+        margin-top: 65px;
+        margin-bottom: 10px;
+    }
+    .margin{
+        padding-bottom: 30px;
     }
 }

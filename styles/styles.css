@@ -93,11 +93,11 @@ header .Screen {
   width: 100%;
 }
 
-main {
+.main1 {
   background-color: rgb(244, 237, 228);
   max-width: 100%;
 }
-main .logo {
+.main1 .logo {
   padding-top: 48px;
   padding-left: 8vw;
   padding-right: 8vw;
@@ -109,7 +109,7 @@ main .logo {
   align-items: center;
   margin: 0px, 15px;
 }
-main .logo .empresas {
+.main1 .logo .empresas {
   text-align: center;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-size: 14px;
@@ -117,36 +117,36 @@ main .logo .empresas {
   letter-spacing: 0.8px;
   font-weight: 600;
 }
-main .logo .Airbnb {
+.main1 .logo .Airbnb {
   margin: 10px;
   height: 70px;
 }
-main .logo .NASA {
+.main1 .logo .NASA {
   height: 55px;
   margin: 10px;
 }
-main .logo .Uber {
+.main1 .logo .Uber {
   height: 30px;
   margin: 10px;
 }
-main .logo .Target {
+.main1 .logo .Target {
   height: 50px;
   margin: 10px;
 }
-main .logo .NYT {
+.main1 .logo .NYT {
   height: 50px;
   margin: 10px;
 }
-main .logo .Etsy {
+.main1 .logo .Etsy {
   height: 50px;
   margin: 10px;
 }
-main .phone_img {
+.main1 .phone_img {
   justify-content: space-around;
   max-width: 100%;
   padding: 15px 0px;
 }
-main .phonecard {
+.main1 .phonecard {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -154,14 +154,14 @@ main .phonecard {
   padding: 0px 4vw 2px 4vw;
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
 }
-main .phonecard .phone_text {
+.main1 .phonecard .phone_text {
   font-weight: 650;
   line-height: 1.1875;
   letter-spacing: -0.3px;
   margin-bottom: 1rem;
   font-size: 30px;
 }
-main .phonecard .phone_p {
+.main1 .phonecard .phone_p {
   align-items: left;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
@@ -170,7 +170,7 @@ main .phonecard .phone_p {
   font-size: 18px;
   margin-bottom: 16px;
 }
-main .phonecard .phone_a {
+.main1 .phonecard .phone_a {
   align-items: left;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   font-weight: 400;
@@ -182,4 +182,200 @@ main .phonecard .phone_a {
   text-decoration: none;
   color: #1264a3;
   border-bottom: none;
+}
+.main1 .padding {
+  margin-top: 65px;
+  margin-bottom: 10px;
+}
+.main1 .margin {
+  padding-bottom: 30px;
+}
+
+.main2 {
+  background-color: white;
+  max-width: 100%;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+}
+.main2 .buttonslack {
+  padding-top: 78px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px, 15px;
+}
+.main2 .buttonslack h3 {
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  margin-bottom: 1rem;
+  font-size: 30px;
+  text-align: center;
+}
+.main2 .buttonslack .Equiposp {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.444;
+  letter-spacing: -0.2px;
+  margin: 5px 0px 20px 0px;
+  font-size: 18.4px;
+}
+.main2 .buttonslack .know {
+  background-color: rgb(84, 21, 84);
+  line-height: 1.444;
+  letter-spacing: 0.2px;
+  color: white;
+  width: 100%;
+  height: 55px;
+  margin-bottom: 20px;
+  font-size: 14.5px;
+}
+.main2 .buttonslack .sells {
+  line-height: 1.444;
+  letter-spacing: 0.2px;
+  color: rgb(84, 21, 84);
+  width: 100%;
+  height: 55px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 0 1px rgb(84, 21, 84);
+  font-size: 14.5px;
+}
+.main2 .buttonslack .porcent {
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 45px;
+  color: rgb(84, 21, 84);
+  margin-top: 30px;
+}
+.main2 .buttonslack .legend {
+  line-height: 1.4286;
+  letter-spacing: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 0px 95px;
+  font-size: 14px;
+}
+.main2 .buttonslack .Space {
+  margin-top: 70px;
+}
+.main2 .buttonslack .Spacedown {
+  margin-bottom: 82px;
+}
+
+.main3 {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  max-width: 100%;
+}
+.main3 .description {
+  padding: 32px;
+  background-color: white;
+}
+.main3 .description .quote {
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.417;
+  letter-spacing: -0.3px;
+  margin-top: 48px;
+  font-size: 21px;
+}
+.main3 .description .founder {
+  font-weight: 700;
+  margin-top: 16px;
+}
+.main3 .description .diploma {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.main3 .description .clients {
+  align-items: left;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 18px;
+  margin-bottom: 16px;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #1264a3;
+  border-bottom: none;
+  font-size: 17px;
+}
+.main3 .porcentage {
+  background-color: white;
+  line-height: 1.4286;
+  letter-spacing: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 45px 16px 15px 16px;
+  font-size: 14px;
+}
+.main3 .section {
+  background-color: rgb(244, 237, 228);
+  padding: 55px 0px 16px;
+}
+.main3 .section .titlecard {
+  text-align: center;
+  margin: 32px, 0px, 16px;
+  padding: 0px 16px 16px 16px;
+  font-weight: 700;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  font-size: 23px;
+}
+.main3 .section .Funtioncard {
+  display: flex;
+  justify-content: center;
+}
+.main3 .section .Funtioncard .ComplexCard {
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  background-color: white;
+  width: 285px;
+  height: 420px;
+}
+.main3 .section .Funtioncard .ComplexCard .Slackimg {
+  display: flex;
+  justify-content: center;
+  width: 93%;
+  height: 45%;
+  padding: 8px;
+}
+.main3 .section .Funtioncard .ComplexCard .Smallcard {
+  line-height: 1.4286;
+  letter-spacing: normal;
+  font-weight: 400;
+  text-align: left;
+  padding: 10px 13px;
+  font-size: 14px;
+}
+.main3 .section .Funtioncard .ComplexCard .Normalcard {
+  text-align: left;
+  margin: 32px, 0px, 16px;
+  padding: 0px 16px 65px 16px;
+  line-height: 1.30625;
+  letter-spacing: 0.3px;
+  font-size: 20px;
+  font-weight: 550;
+}
+.main3 .section .Funtioncard .ComplexCard .LinkCard {
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #1264a3;
+  border-bottom: none;
+  align-items: left;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+}
+.main3 .section .dots {
+  width: 110px;
+  margin-left: 150px;
+  margin-top: 30px;
 }/*# sourceMappingURL=styles.css.map */

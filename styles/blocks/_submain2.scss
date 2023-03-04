@@ -1,0 +1,74 @@
+.main2{
+    background-color: white;
+    max-width: 100%;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    .buttonslack{
+        padding-top: 78px;
+        padding-left: 16px;
+        padding-right: 16px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px, 15px;
+        h3{
+            line-height: 1.1875;
+            letter-spacing: -.3px;
+            margin-bottom: 1rem;
+            font-size: 30px;
+            text-align: center;
+        }
+        .Equiposp{
+            text-align: center;
+            font-weight: 400;
+            line-height: 1.444;
+            letter-spacing: -.2px;
+            margin: 5px 0px 20px 0px;
+            font-size: 18.4px;
+        }
+        .know{
+            background-color: $headercolor;
+            line-height: 1.444;
+            letter-spacing: 0.2px;
+            color: white;
+            width: 100%;
+            height: 55px;
+            margin-bottom: 20px;
+            font-size: 14.5px;
+        }
+        .sells{
+            line-height: 1.444;
+            letter-spacing: 0.2px;
+            color: $headercolor;
+            width: 100%;
+            height: 55px;
+            margin-bottom: 10px;
+            box-shadow: inset 0 0 0 1px $headercolor;
+            font-size: 14.5px;
+        }
+        .porcent{
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: center;
+            font-size: 45px;
+            color: $headercolor;
+            margin-top: 30px;
+        }
+        .legend{
+            line-height: 1.4286;
+            letter-spacing: normal;
+            font-weight: 400;
+            text-align: center;
+            padding: 0px 95px;
+            font-size: 14px;
+        }
+        .Space{
+            margin-top: 70px;
+        }
+        .Spacedown{
+            margin-bottom: 82px;
+        }
+    }
+}

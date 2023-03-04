@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(84, 21, 84);
+    background-color: $headercolor;
     @include flexElement(space-around, row);
     nav{
         width: 100%;
@@ -45,7 +45,7 @@ header{
         font-weight: 700;
         line-height: 1.444;
         letter-spacing: 0.2px;
-        color: rgb(84, 21, 84);
+        color: $headercolor;
         width: 92%;
         height: 55px;
         margin-bottom: 10px;
